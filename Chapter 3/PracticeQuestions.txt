@@ -1,0 +1,14 @@
+1. They allow you to simplify your code and make it easier to fix bugs.
+2. The code in a function is executed when the function is called.
+3. The "Def" statement is used to define/create a function.
+4. A function is a set of instructions that are put into action using a function call, which calls the function.
+5. There is only one global scope in a Python program. The number of local scopes varies, with each function creating it's own local scope.
+6. When a function call returns, the variables in the local scope are destroyed.
+7. The return value of a function the value being returned by the function. A return value can be part of an expression.
+8. If a function does not have a return statement, the return value of a call to that function is "None".
+9. You can force a variable in a function to refer to the global variable by using the "global" statement.
+10. The datatype of None is NoneType.
+11. The statement 'import areallyourpetsnamederic' imports the module 'areallyourpetsnamederic' into the program.
+12. If you had a function called 'bacon()' in a module called spam, you would call the function using the keyword 'spam.bacon()'.
+13. You can prevent a program from crashing when it gets an error by putting the code potentially causing the error within a 'try:' clause.
+14. The code that could potentially cause an error within a 'try:' clause. The 'except:' clause hold the code to be run when an error appears. For instance, a print statement with an error message.

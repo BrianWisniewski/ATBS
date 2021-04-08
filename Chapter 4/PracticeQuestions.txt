@@ -1,0 +1,18 @@
+1. The "[]" symbol signifies an empty list value.
+2. This can be done with " spam[2] = 'hello' ".
+3. spam[int(int('3' * 2) // 11)] evaluates to 'd'.
+4. spam[-1] evaluates to 'd'.
+5. spam[:2] evaluates to ['a', 'b'].
+6. bacon.index('cat') evaluates to the int 1.
+7. bacon.append(99) would cause the list to look like this: [3.14, 'cat', 11, 'cat', True, 99].
+8. bacon.remove('cat') would make the list look like this: [3.14, 11, 'cat', True].
+9. List concatenation is handled by the '+' operator and list replication is handled by the '*' operator.
+10. The append() method adds on to the end of the list while the insert() method inserts the value into a specified place in the list.
+11. Values can be removed from a list using the 'del' statement if the index is known or by using the remove() statement if the value is known.
+12. List values are similar to string values because they are both mutable datatypes, can be passes into for loops, can be used with the in and not
+    operators, can be concatenated or replicated, can be passed into len(), and they both have indexes as well as slices.
+13. Lists can be modified (mutable) and use brackets while tuples cannot (immutable) and use parentheses.
+14. The tuple value with just the int 42 in it would look like this: (42,)
+15. A list can be converted to a tuple with the tuple() statement and a tuple can be converted to a list with the list() statement.
+16. Variables that 'contain' list values actually contain the reference to a given list.
+17. copy.copy() only includes the values contained inside of a list. copy.deepcopy also copies the lists inside of a list.
