@@ -94,3 +94,4 @@ if __name__ == '__main__':
     print('Enter the dictionary value for the chess board:')
     board = eval(input())
     isValidChessBoard(board)
+    
