@@ -1,0 +1,8 @@
+1. The code for an empty dictionary looks like this: {}
+2. {'foo': 42}
+3. A list is orderdered and items are called using an index. A dictionary is unordered and items are called using keys.
+4. You will get a KeyError error.
+5. There is no difference because they will both check for the string 'cat' as a key in the dictionary.
+6. The first will look for the string 'cat' as a key in the dictionary 'spam' while the 2nd will look for the string 'cat' as a value in the dictionary 'spam'
+7. setdefault('color', 'black')
+8. The pprinnt function in the pprint module can be used to prittprint dictionary values.
