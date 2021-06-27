@@ -1,3 +1,5 @@
+# This code was not written by me, only modified
+
 # Conway's Game of Life
 import random, time, copy
 WIDTH = 60
