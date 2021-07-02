@@ -1,4 +1,6 @@
-inport random, time, copyc  
+
+import random, time, copy  
+
 size = (60, 20)
 wait = 1
 nextCells = []
@@ -9,7 +11,7 @@ for x in range(size[0]):
             column.append('#')
         else:
             column.append(' ')
-    nextcells.append(column)
+    nextCells.append(column)
 while True:
     print('\n\n\n\n\n')
     currentCells = copy.deepcopy(nextCells)
